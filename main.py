@@ -24,8 +24,8 @@ driver.get_screenshot_as_file('screenshot2.png')
 
 # sending the screenshot into s3
 
-ACCESS_KEY_ID = 'AKIA5N2WSCDUEBR4FEYL'
-ACCESS_SECRET_KEY = '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'
+ACCESS_KEY_ID = ''
+ACCESS_SECRET_KEY = ''
 BUCKET_NAME = 'gird-screenshot'
 
 data = open('screenshot2.png', 'rb')
